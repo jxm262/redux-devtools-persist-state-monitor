@@ -8,6 +8,10 @@
     "build": "babel src --out-dir lib",
     "prepublish": "npm run clean && npm run build"
   },
+  "files": [
+    "lib",
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jxm262/redux-devtools-persist-state-monitor.git"
@@ -35,5 +39,8 @@
   "peerDependencies": {
     "react": "^0.14.0",
     "redux-devtools": "^3.0.0"
+  },
+  "dependencies": {
+    "redux-devtools-themes": "^1.0.0"
   }
 }
